@@ -649,7 +649,7 @@ pointer-events: none;
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-  fill: #fff;
+  fill: #ffffff;
   background-color: #404bbf;
   border: none;
 }
