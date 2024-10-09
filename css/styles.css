@@ -649,9 +649,12 @@ pointer-events: none;
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-  fill: #ffffff;
   background-color: #404bbf;
   border: none;
+}
+
+.modal-close-button:hover, .modal-close-button:focus + .modal-close-icon {
+  fill: #ffffff; 
 }
 
 .modal-application {
