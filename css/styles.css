@@ -653,14 +653,11 @@ pointer-events: none;
   border: none;
 }
 
-.modal-close-button:hover, .modal-close-button:focus + .modal-close-icon {
+.modal-close-button:hover .modal-close-icon,
+.modal-close-button:focus .modal-close-icon {
   fill: #ffffff; 
-}
+} 
 
-.modal-close-icon:hover,
-.modal-close-icon:focus {
-  fill: #ffffff;
-}
 
 .modal-application {
 font-weight: 500;
