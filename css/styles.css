@@ -527,7 +527,13 @@ gap: 16px
 }
 
 .subscribe-input {
- border: 1px solid #fff;
+  padding-left: 16px;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #ffffff;
+ border: 1px solid #ffffff;
  border-radius: 4px;
  width: 264px;
  height: 40px;
@@ -537,13 +543,9 @@ gap: 16px
 }
 
 .subscribe-input::placeholder {
- padding-left: 16px;
- font-weight: 400;
- font-size: 12px;
- line-height: 2;
- letter-spacing: 0.04em;
- color: #fff;
+  color: #ffffff;
 }
+ 
 
 .subscribe-button {
  display: flex;
