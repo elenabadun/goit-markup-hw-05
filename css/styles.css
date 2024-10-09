@@ -657,6 +657,11 @@ pointer-events: none;
   fill: #ffffff; 
 }
 
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+  fill: #ffffff;
+}
+
 .modal-application {
 font-weight: 500;
 font-size: 16px;
